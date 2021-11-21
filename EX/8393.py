@@ -1,6 +1,8 @@
-a = int(input())
-sum = 0
-for num in range(a+1):
-    sum += num
+T = int(input())
 
-print(sum)
+for num in range(1,T+1):
+    a, b = map(int, input().split())
+    num = a + b
+    print(num)
+
+
