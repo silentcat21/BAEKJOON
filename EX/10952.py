@@ -1,6 +1,10 @@
 import sys
-a, b = map(int, sys.stdin.readline().split())
-sum = a+b
-while sum == 0:
-    
-    print(sum)
+
+
+while 1:
+    a, b = map(int, sys.stdin.readline().split())
+    if a + b == 0:
+        break
+    else:
+        print(a+b)
+
