@@ -7,9 +7,7 @@ for i in range(10):
     b = a%42
     alist.append(b)
 print(alist)
-for t in range(10):
-    if alist.find(alist[t]) == 1:
-        sum += 1
+setlist = set(alist)
 
-print(sum)
+print(len(setlist))
     
