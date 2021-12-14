@@ -12,5 +12,4 @@ while num <=10000000:
         sum += num + 1
         num += 1
 if num % 2 == 1:
-    
-
+    pass
