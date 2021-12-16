@@ -11,5 +11,3 @@ if line%2 == 0 :
 else:
     print(line+1-X,"/",X,sep='')
 
-print(X)
-print(line)
