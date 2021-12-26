@@ -23,4 +23,4 @@ for i in range(T):
         print('1')
     elif distance**2 > (r-rr)**2:
         print('2')
-    
+    elif distance
