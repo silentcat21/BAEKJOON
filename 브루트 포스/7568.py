@@ -2,14 +2,17 @@ import sys
 
 N = int(sys.stdin.readline())
 
-people = []
-peoplelank = []
+people = list()
 
 for i in range(N):
-    a = list(map(int, sys.stdin.readline().split()))
-    people.append(a)
+    people.append(sys.stdin.readline().split())
 
-for i in :
-     
+
+for i in range(N):
+    rank = 1
+    for ii in range(N):
+        if people[i][0] < people[ii][0] and people[i][1] <people[ii][1]:
+            rank = rank + 1
+    print(rank, end=" ")
 
 print(people)
